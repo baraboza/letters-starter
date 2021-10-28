@@ -1,0 +1,42 @@
+html,
+body,
+table,
+div {
+  margin: 0;
+  Margin: 0;
+  padding: 0;
+}
+
+td {
+  padding: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+}
+
+.preheader {
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
+  color: transparent;
+  height: 0;
+  width: 0;
+  font-size: 0;
+  line-height: 0;
+}
+
+.body {
+  background-color: #FFFFFF;
+}
+
+.font {
+  -webkit-text-size-adjust: none;
+  font-family: sans-serif;
+}
+.font td, .font p, .font b, .font i, .font a, .font span {
+  -webkit-text-size-adjust: none;
+  font-family: sans-serif;
+}
